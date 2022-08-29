@@ -1,0 +1,31 @@
+{
+  "bsonType": "object",
+  "required": [],
+  "permission": {
+    "read": true,
+    "create": true,
+    "update": true,
+    "delete": true
+  },
+  "properties": {
+    "_id": {
+      "description": "ID，系统自动生成"
+    },
+    "username": {
+      "bsonType": "string",
+      "description": "姓名"
+    },
+    "phone": {
+      "bsonType": "string",
+      "description": "手机号"
+    },
+    "remark": {
+      "bsonType": "string",
+      "description": "备注"
+    },
+    "touxiang": {
+      "bsonType": "string",
+      "description": "头像"
+    }
+  }
+}

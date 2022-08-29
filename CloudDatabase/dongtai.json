@@ -1,0 +1,35 @@
+{
+  "bsonType": "object",
+  "required": [],
+  "permission": {
+    "read": true,
+    "create": true,
+    "update": true,
+    "delete": true
+  },
+  "properties": {
+    "_id": {
+      "description": "ID，系统自动生成"
+    },
+    "message": {
+      "bsonType": "string",
+      "description": "信息"
+    },
+    "photo": {
+      "bsonType": "string",
+      "description": "照片"
+    },
+    "look": {
+      "bsonType": "int",
+      "description": "看"
+    },
+    "zan": {
+      "bsonType": "int",
+      "description": "点赞"
+    },
+    "pinglu": {
+      "bsonType": "int",
+      "description": "评论"
+    }
+  }
+}
